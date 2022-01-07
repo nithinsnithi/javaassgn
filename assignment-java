@@ -1,0 +1,21 @@
+class palindrome12
+{
+	public static void main(String[] args) {
+		int sum=0,temp,r; //int sum=0,temp,r
+		int n=454;
+		temp=n;
+		while(n>0){
+
+
+	r=n%10; //remainder is calculated if % sign is given int he program
+	sum=(sum*10)+r;
+	n=n/10; //quotient is calculated if  / sign is given in the program
+	}
+	if(temp==sum){
+		System.out.println("it is a palindrome number");
+	}
+		else {
+			System.out.println("it is not a palindrome number");
+		}
+	}
+}
